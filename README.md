@@ -35,6 +35,8 @@ Music APP have some features:
   - Convert media offline.
   - Download video Youtube.
   - Like musics.
+  - Play musics in background.
+  - Setup Remote Commander
 
 Some frameworks and techniques:
 - **Realm and FileManager**: : To save, manage and handle data (musics and playlists).
@@ -50,31 +52,39 @@ Some frameworks and techniques:
 
 # Video Demo
 
-# I. Import
+## I. Import
 
 Main Feature ProfileController
 
 - Import music from `GoogleDrive` and `BoxDrive` :
 
-| Google Drive | Box Drive |
+| Main Home | Albums Detail |
 | :--------: | :--------: | 
-| <img src="gif/bottomSheetAndLogout.gif" alt="Logo" height="100%" style="border-radius: 10px;"> | <img src="gif/editProfile.gif" alt="Logo" width="100%" style="border-radius: 10px;"> | ![](gif/follow.gif?cropResize=50,50) |
+| ![](gif/home.gif)) | ![](gif/albumDT.gif) |
 
 
-# II. HomeController
+## II. HomeController
 
 - In HomeController, i just implement layout and AlbumsDeTailVC
 
 | Main Home | Albums Detail |
 | :--------: | :--------: | 
-| <img src="gif/dynamicCell.gif" alt="Logo" height="100%" style="border-radius: 10px;"> | <img src="gif/anotherUser.gif" alt="Logo" height="50%" style="border-radius: 10px;"> | 
+| ![](gif/home.gif) | ![](gif/albumDT.gif) | 
 
 
-# III. Search Controller
+# III. PlayerController
+
+| Next, Back, Rewind and Forward | Random Mode | Download Music | 
+| :--------: | :--------: | :--------: | 
+| ![](gif/play_music.gif) | ![](gif/random.gif) | ![](gif/download.gif) | 
+| Convert | Likes Music | Remote Commander and PlayBackground |
+| ![](gif/comvert.gif) | ![](gif/likes.gif) | ![](gif/playBack.gif) |
+
+## III. Search Controller
 
 - Searching with pure music, filter music, video and music local. I also implement load more and no search again when switch filter>
 
-# IV. UploadStatusController
+## IV. UploadStatusController
 Upload Status with caption and photo image.
 <div align="center">
 <img src="gif/UploadTus.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
