@@ -58,9 +58,9 @@ Main Feature ProfileController
 
 - Import music from `GoogleDrive` and `BoxDrive` :
 
-| Main Home | Albums Detail |
+| Import Google Drive | Import Box Drive |
 | :--------: | :--------: | 
-| ![](gif/home.gif)) | ![](gif/albumDT.gif) |
+| ![](gif/GGDrive.gif) | ![](gif/box.gif) |
 
 
 ## II. HomeController
@@ -74,21 +74,26 @@ Main Feature ProfileController
 
 # III. PlayerController
 
+- Next, Back ,Rewind and Forward, Random Mode, Download Music
+
 | Next, Back, Rewind and Forward | Random Mode | Download Music | 
 | :--------: | :--------: | :--------: | 
 | ![](gif/play_music.gif) | ![](gif/random.gif) | ![](gif/download.gif) | 
+
+
+- Convert music, like music and play music in background and control music by remote commander
+
 | Convert | Likes Music | Remote Commander and PlayBackground |
+| :--------: | :--------: | :--------: |
 | ![](gif/comvert.gif) | ![](gif/likes.gif) | ![](gif/playBack.gif) |
 
 ## III. Search Controller
 
-- Searching with pure music, filter music, video and music local. I also implement load more and no search again when switch filter>
+- Searching with pure music, filter music, video and music local.
 
-## IV. UploadStatusController
-Upload Status with caption and photo image.
-<div align="center">
-<img src="gif/UploadTus.gif" alt="Logo" width="200" height="440" style="border-radius: 10px;">
-</div>
+| Search and Load More | Filter Music | 
+| :--------: | :--------: | 
+| ![](gif/loadMore.gif) | ![](gif/filter.gif) | 
 
 ## Contact
 
