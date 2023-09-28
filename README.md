@@ -16,16 +16,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<div align="center">
-<img src="images/product_screenShort1.jpg" alt="Logo" width="320" height="390" style="border-radius: 10px;">
-</div>
-
 This is my detail description about MusicApp project when i am working at my company. Because of policy and privacy, i can not attach the code to this repository. If yout want to make some features like this application, please contact me at <a href="#contact">Contact</a>. 
 
 MusicApp can play music both online and offline. Offline music refers to video or audio imported from `Google Drive, Box Drive`,... Online music is sourced from YouTube using `youtube/v1` API and `WKWebView` to obtain the actual MP4 link.
-Music APP have some features:
-- Import video and audio from Google Drive, Box Drive.
-- Search video, audio.
+Music APP have some main features:
+- Import video and audio from `Google Drive, Box Drive`.
+- Search video, audio online and offline.
 - Create Playlists.
 - Develop layout HomeController.
 - Develop PlayerController: 
@@ -65,7 +61,7 @@ Main Feature ProfileController
 
 ## II. HomeController
 
-- In HomeController, i just implement layout and AlbumsDeTailVC
+- In HomeController, i just implement layout and AlbumsDeTailVC.
 
 | Main Home | Albums Detail |
 | :--------: | :--------: | 
@@ -74,14 +70,14 @@ Main Feature ProfileController
 
 # III. PlayerController
 
-- Next, Back ,Rewind and Forward, Random Mode, Download Music
+- Next, Back ,Rewind and Forward, Random Mode, Download Music.
 
 | Next, Back, Rewind and Forward | Random Mode | Download Music | 
 | :--------: | :--------: | :--------: | 
 | ![](gif/play_music.gif) | ![](gif/random.gif) | ![](gif/download.gif) | 
 
 
-- Convert music, like music and play music in background and control music by remote commander
+- Convert music, like music and play music in background and control music by remote commander.
 
 | Convert | Likes Music | Remote Commander and PlayBackground |
 | :--------: | :--------: | :--------: |
@@ -99,7 +95,4 @@ Main Feature ProfileController
 
 Full Name - [Trinh Tien Viet](https://www.facebook.com/mdgarp49) - tienviet153153@gmail.com
 
-Project Link: [https://github.com/Vietdz123/Instagram.git](https://github.com/Vietdz123/Instagram.git)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-1
